@@ -23,5 +23,11 @@ fun NavApp() {
         composable(NavRoute.Pesan.name) {
             Pesan(navController)
         }
+        composable(NavRoute.Bayar.name) {
+            Bayar(navController)
+        }
+        composable(NavRoute.Akhir.name) {
+            Akhir(navController)
+        }
     }
 }
